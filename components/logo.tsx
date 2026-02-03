@@ -12,12 +12,13 @@ type LogoProps = {
   variant?: LogoVariant
   className?: string
   href?: string
-  /** sm = nav, lg = footer */
-  size?: "sm" | "lg"
+  /** xs = nav (qisqa), sm = nav, lg = footer */
+  size?: "xs" | "sm" | "lg"
 }
 
 /** Kompakt o‘lcham — ortiqcha joy egallamasin */
 const sizes = {
+  xs: { height: 24, width: 98 },
   sm: { height: 32, width: 130 },
   lg: { height: 40, width: 160 },
 }
@@ -35,7 +36,7 @@ export function Logo({ variant = "auto", className, href = "/", size = "sm" }: L
       alt="AviShifo — Digital Medical Ecosystem"
       width={width}
       height={height}
-      sizes={size === "sm" ? "130px" : "160px"}
+      sizes={size === "xs" ? "98px" : size === "sm" ? "130px" : "160px"}
       className={cn("object-contain object-left", className)}
       priority
     />

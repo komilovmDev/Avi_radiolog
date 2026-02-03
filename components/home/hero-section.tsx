@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-24 pb-16">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden pt-12 pb-16">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-medical-white via-white/50 to-medical-blue/5 dark:from-slate-900 dark:via-slate-900/95 dark:to-medical-blue/10 -z-10" />
       <div className="absolute top-1/4 right-0 w-[600px] h-[600px] bg-medical-blue/5 rounded-full blur-3xl -z-10" />

@@ -41,7 +41,7 @@ export default function RootLayout({
       <body className={`${inter.variable} font-sans antialiased min-h-screen flex flex-col`}>
         <ThemeProvider>
           <Navigation />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 pt-20">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

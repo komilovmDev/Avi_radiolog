@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function DemoPage() {
   return (
-    <section className="min-h-screen pt-32 pb-20 bg-slate-50 dark:bg-slate-900">
+    <section className="min-h-screen pt-20 pb-20 bg-slate-50 dark:bg-slate-900">
       <div className="container max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
