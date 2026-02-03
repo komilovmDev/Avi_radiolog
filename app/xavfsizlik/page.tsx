@@ -29,24 +29,24 @@ const securityFeatures = [
     description:
       "Role-based access control (RBAC). Har bir foydalanuvchi faqat o'z vakolati doirasida ishlaydi.",
   },
-  {
-    icon: ClipboardList,
-    title: "Harakatlar loglanadi",
-    description:
-      "Audit trail — kim, qachon, qaysi ma'lumotlarga kirgan. Tamoyil va sertifikatlar talablariga javob beradi.",
-  },
+  // {
+  //   icon: ClipboardList,
+  //   title: "Harakatlar loglanadi",
+  //   description:
+  //     "Audit trail — kim, qachon, qaysi ma'lumotlarga kirgan. Tamoyil va sertifikatlar talablariga javob beradi.",
+  // },
   {
     icon: Shield,
     title: "Bemor ma'lumotlari himoyalangan",
     description:
       "GDPR, HIPAA va mahalliy tibbiy maxfiylik qonunlariga mos. Bemor ma'lumotlari maxsus himoya ostida.",
   },
-  {
-    icon: Database,
-    title: "AI o'qitish uchun depersonalizatsiya",
-    description:
-      "Modellarni o'qitishda faqat anonimlashtirilgan ma'lumotlar ishlatiladi. Shaxsiy ma'lumotlar hech qachon AI uchun ishlatilmaydi.",
-  },
+  // {
+  //   icon: Database,
+  //   title: "AI o'qitish uchun depersonalizatsiya",
+  //   description:
+  //     "Modellarni o'qitishda faqat anonimlashtirilgan ma'lumotlar ishlatiladi. Shaxsiy ma'lumotlar hech qachon AI uchun ishlatilmaydi.",
+  // },
 ]
 
 export default function XavfsizlikPage() {
