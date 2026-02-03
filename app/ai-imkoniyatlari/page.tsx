@@ -30,7 +30,7 @@ const capabilities = [
   },
   {
     icon: Brain,
-    title: "Ehtimoliy tashxislar",
+    title: "Differensial diagnostika",
     description:
       "Differensial tashxis bo'yicha tavsiyalar. AI shubhali hududlar uchun ehtimoliy variantlarni taklif qiladi.",
   },
