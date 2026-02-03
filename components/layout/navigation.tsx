@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { Logo } from "@/components/logo"
 import { cn } from "@/lib/utils"
 
 const navLinks = [
@@ -50,11 +51,7 @@ export function Navigation() {
     >
       <nav className="container max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 group">
-            <span className="text-xl font-bold text-medical-blue">
-              Avi<span className="text-slate-900 dark:text-slate-100">Radiology</span>
-            </span>
-          </Link>
+          <Logo href="/" size="sm" />
 
           <div className="hidden lg:flex items-center gap-6">
             {navLinks.map((link) => (

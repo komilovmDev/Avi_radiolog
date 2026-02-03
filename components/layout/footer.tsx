@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { Mail, MapPin, Phone, ArrowUpRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { Logo } from "@/components/logo"
 
 // Manzil — Yoshlar Texno Parki, Urgench
 const OFFICE_ADDRESS = "Yoshlar Texno Parki, Urgench, Xorazm"
@@ -30,11 +31,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12 lg:mb-16">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block mb-6">
-              <span className="text-2xl font-bold">
-                Avi<span className="text-medical-blue-light">Radiology</span>
-              </span>
-            </Link>
+            <Logo href="/" variant="dark" size="lg" className="mb-6" />
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
               Radiologlar uchun yangi avlod sun&apos;iy intellekt yordamchisi.
               DICOM tahlil, patologiya aniqlash va hisobot yordamchisi.
