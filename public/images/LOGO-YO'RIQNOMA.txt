@@ -1,0 +1,23 @@
+Light theme logoni qo'yish
+=========================
+
+Light rejimda ko'rinadigan logo: public/images/logo-light.png
+
+Siz yuborgan rasmni (ko'k AviRadiology® va "DIGITAL MEDICAL ECOSYSTEM" qora fonda)
+qo'yish uchun:
+
+1. Cursor assets papkasini oching:
+   C:\Users\komil\.cursor\projects\c-Users-komil-Documents-GitHub-Avi-radiolog\assets
+
+2. "Gemini_Generated_Image" (3519b710...) nomli PNG faylni toping
+   (ko'k AviRadiology® va "DIGITAL MEDICAL ECOSYSTEM", qora fon).
+
+3. Ushbu faylni NUSXALANG (Copy).
+
+4. Loyiha papkasiga boring:
+   c:\Users\komil\Documents\GitHub\Avi_radiolog\public\images\
+
+5. Mavjud logo-light.png faylini siz nusxalagan rasm bilan ALMASHTIRING
+   (yoki nusxani shu papkaga joylashtirib nomini logo-light.png qiling).
+
+Tayyor. Light theme da navbar va loader yangi logoni ko'rsatadi.
