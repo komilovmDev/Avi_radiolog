@@ -65,6 +65,11 @@ export function Navigation() {
                 </Link>
               ))}
               <ThemeToggle />
+              <Link href="/login">
+                <Button variant="secondary" size="sm">
+                  Kirish
+                </Button>
+              </Link>
               <Link href="/demo">
                 <Button size="sm" className="shadow-medical">
                   Demo so&apos;rash
@@ -108,9 +113,18 @@ export function Navigation() {
                 </Link>
               ))}
               <Link
-                href="/demo"
+                href="/login"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block pt-4 px-4"
+              >
+                <Button variant="secondary" className="w-full">
+                  Kirish
+                </Button>
+              </Link>
+              <Link
+                href="/demo"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block pt-2 px-4"
               >
                 <Button className="w-full">Demo so&apos;rash</Button>
               </Link>
