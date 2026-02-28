@@ -65,7 +65,7 @@ export function Navigation() {
                 </Link>
               ))}
               <ThemeToggle />
-              <Link href="/login">
+              <Link href="https://dashboard.aviradiology.uz/">
                 <Button variant="secondary" size="sm">
                   Kirish
                 </Button>

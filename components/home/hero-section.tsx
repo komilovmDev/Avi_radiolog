@@ -61,9 +61,9 @@ export function HeroSection() {
                   <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <Link href="/platforma">
+              <Link href="https://dashboard.aviradiology.uz/">
                 <Button variant="secondary" size="lg">
-                  Bog&apos;lanish
+                  Kirish
                 </Button>
               </Link>
             </motion.div>
